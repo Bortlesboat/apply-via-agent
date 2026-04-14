@@ -26,9 +26,15 @@ We are building the first public package for `Apply via Agent`:
 
 The eventual company is the hosted network and trust layer behind the protocol, not just the documents in this repo.
 
+## Current Status
+
+This is the first public protocol and startup package for Apply via Agent. It is intentionally document-first and not a production network yet.
+
 ## Repo Map
 
-- [`spec/`](spec/) for the protocol surface
-- [`startup/`](startup/) for the company narrative
-- [`docs/`](docs/) for product and design-partner materials
-- [`examples/`](examples/) for sample payloads and flows
+- [`spec/job-schema.md`](spec/job-schema.md) for the machine-readable role definition
+- [`spec/application-packet.md`](spec/application-packet.md) for the candidate-agent submission payload
+- [`startup/yc-memo.md`](startup/yc-memo.md) for the YC-style company framing
+- [`startup/go-to-market.md`](startup/go-to-market.md) for the first buyer and integration wedge
+- [`docs/design-partner-pitch.md`](docs/design-partner-pitch.md) for the pilot pitch
+- [`docs/example-flow.md`](docs/example-flow.md) for the end-to-end intake walkthrough
