@@ -2,14 +2,14 @@
 
 Don't fight AI applicants. Give them an official door.
 
-Apply via Agent is an open protocol and startup concept for trusted, agent-submitted job applications. Instead of forcing candidate agents to impersonate humans inside brittle web forms, it defines an official machine channel that employers can expose and route into their ATS.
+Apply via Agent is a managed intake service and open protocol for employer-first, agent-submitted job applications. It translates reusable applicant data into employer-specific hiring schemas so companies can receive structured, trusted applications instead of noisy AI-assisted form submissions.
 
 ## What It Is
 
 This repository packages two things together:
 
+- a managed intake and translation layer that employers can buy first
 - an open protocol draft for machine-readable jobs, structured application packets, consent metadata, and employer responses
-- a startup narrative for the hosted gateway, trust layer, and ATS integrations that make the protocol usable in production
 
 ## Why Now
 
@@ -20,6 +20,7 @@ Candidate-side automation is already happening, recruiter-side AI is arriving qu
 Today, candidate agents mostly use the same workflows humans do:
 
 - they fill brittle web forms
+- they retype the same identity and work history into incompatible schemas
 - they brute-force application volume
 - they create duplicate or low-trust payloads
 - they hide provenance from the employer
@@ -31,10 +32,11 @@ That makes AI feel like noise from the employer side, even when the candidate is
 Apply via Agent changes the door, not just the form:
 
 1. the employer publishes a machine-readable job schema
-2. the candidate agent assembles a structured application packet
-3. the gateway validates consent, provenance, and duplicates
-4. the gateway syncs accepted applications into the ATS with trust metadata attached
-5. the recruiter reviews a cleaner, declared submission and can send structured follow-up questions
+2. the candidate or candidate agent keeps a reusable canonical profile instead of retyping the same fields for every job
+3. the translation layer compiles that profile into the employer's schema and question set
+4. the gateway validates consent, provenance, and duplicates
+5. the gateway syncs accepted applications into the ATS with trust metadata attached
+6. the recruiter reviews a cleaner, declared submission and can send structured follow-up questions
 
 ## Who It's For
 
@@ -55,18 +57,19 @@ This repo is built around one clear wedge:
 - not a replacement ATS
 - not a generic recruiting AI wrapper
 
-The company behind Apply via Agent is the trusted intake layer between candidate agents and employer systems. That is where the market pain is rising fastest and where the best moat can form.
+The company behind Apply via Agent is the managed intake and translation layer between candidate agents and employer systems. Employers buy the trusted intake service first, while the reusable applicant network becomes the long-term moat as more profiles, mappings, and trust signals accumulate on the network.
 
 ## What We Are Building
 
 We are building the first public package for `Apply via Agent`:
 
+- managed-intake and translation framing under `README.md`, `startup/`, and `docs/`
 - protocol drafts under `spec/`
 - startup and YC-style framing under `startup/`
 - product and design-partner materials under `docs/`
 - aligned sample payloads under `examples/`
 
-The eventual company is the hosted network and trust layer behind the protocol, not just the documents in this repo.
+The eventual company is the managed intake network and trust layer behind the protocol, not just the documents in this repo.
 
 ## Design Partner Offer
 

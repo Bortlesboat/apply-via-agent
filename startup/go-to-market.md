@@ -6,11 +6,11 @@ Start with 200-2,000 employee companies hiring knowledge workers and already usi
 
 ## Integration Strategy
 
-Integrate with Greenhouse first and Ashby second. The product should sit in front of the ATS, not replace it, so teams can add `Apply via Agent` without ripping up their existing recruiter workflow.
+Integrate with Greenhouse first and Ashby second. The product should sit in front of the ATS, not replace it, so teams can add `Apply via Agent` without ripping up their existing recruiter workflow. The key technical promise is that we translate one reusable applicant profile into each employer's specific schema instead of making applicants retype everything for every job.
 
 ## Design-Partner Motion
 
-The first motion is founder-led. Offer a pilot on a subset of roles, keep the human form available, and learn where trust checks, dedupe, and recruiter metadata matter most in live workflows.
+The first motion is founder-led. Offer a pilot on a subset of roles, keep the human form available, and learn where trust checks, schema translation, dedupe, and recruiter metadata matter most in live workflows.
 
 ## Attention Strategy
 
@@ -23,3 +23,7 @@ Use the public protocol, design-partner page, and a tight end-to-end demo to win
 - employers who feel the pain
 - candidate-agent builders looking for a legitimate channel
 - investors who need a crisp "why now" story
+
+The product pitch should stay employer-first:
+
+`We are the managed intake and translation layer between applicant profiles and employer hiring systems.`
