@@ -1,0 +1,11 @@
+{
+  "application_id": "app_123",
+  "status": "needs_follow_up",
+  "reason_code": "missing_portfolio_example",
+  "follow_up_questions": [
+    {
+      "id": "f1",
+      "prompt": "Please provide one shipped product example relevant to the role."
+    }
+  ]
+}

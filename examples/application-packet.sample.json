@@ -1,0 +1,26 @@
+{
+  "application_id": "app_123",
+  "job_id": "job_123",
+  "candidate": {
+    "full_name": "Jordan Lee",
+    "email": "jordan@example.com"
+  },
+  "agent": {
+    "name": "CandidateAgent",
+    "version": "0.1.0"
+  },
+  "consent": {
+    "granted": true,
+    "timestamp": "2026-04-14T15:30:00Z"
+  },
+  "provenance": {
+    "summary_origin": "generated",
+    "work_history_origin": "candidate_provided"
+  },
+  "answers": [
+    {
+      "question_id": "q1",
+      "value": true
+    }
+  ]
+}

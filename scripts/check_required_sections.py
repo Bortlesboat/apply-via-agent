@@ -11,6 +11,30 @@ checks = {
         "## Repo Map",
         "## What We Are Building",
     ],
+    "spec/job-schema.md": [
+        "# Job Schema",
+        "## Purpose",
+        "## Required Fields",
+        "## Example Payload",
+    ],
+    "spec/application-packet.md": [
+        "# Application Packet",
+        "## Purpose",
+        "## Required Fields",
+        "## Example Payload",
+    ],
+    "spec/consent-and-provenance.md": [
+        "# Consent and Provenance",
+        "## Purpose",
+        "## Required Fields",
+        "## Example Payload",
+    ],
+    "spec/status-and-follow-ups.md": [
+        "# Status and Follow-Ups",
+        "## Status Values",
+        "## Follow-Up Questions",
+        "## Example Payload",
+    ],
 }
 
 errors = []

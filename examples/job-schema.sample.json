@@ -1,0 +1,22 @@
+{
+  "job_id": "job_123",
+  "title": "Founding Product Engineer",
+  "employer": {
+    "name": "ExampleCo",
+    "ats": "greenhouse"
+  },
+  "required_qualifications": [
+    "5+ years shipping SaaS products"
+  ],
+  "knockout_questions": [
+    {
+      "id": "q1",
+      "prompt": "Are you authorized to work in the United States?",
+      "type": "boolean"
+    }
+  ],
+  "submission": {
+    "mode": "apply_via_agent",
+    "human_form_available": true
+  }
+}
