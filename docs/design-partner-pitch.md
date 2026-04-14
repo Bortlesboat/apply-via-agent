@@ -1,0 +1,17 @@
+# Design Partner Pitch
+
+## Who This Is For
+
+This is for talent teams that are already seeing AI-assisted applicants and want a better option than hidden automation through human forms.
+
+## What We Install
+
+We add an `Apply via Agent` intake path in front of your existing ATS, define the job schema for selected roles, accept structured application packets, and attach trust metadata before syncing accepted applications into your workflow.
+
+## Why It Matters
+
+The current hiring channel turns AI use into noisy, low-trust inbound data. A declared machine channel gives recruiters cleaner payloads, better provenance, and a more auditable intake flow.
+
+## Pilot Ask
+
+Give us a small set of live roles, let us integrate with your current ATS workflow, and help us shape the trust and recruiter-review layer. In return, you get early leverage on a problem that is already showing up in your funnel.

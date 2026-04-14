@@ -35,6 +35,42 @@ checks = {
         "## Follow-Up Questions",
         "## Example Payload",
     ],
+    "startup/yc-memo.md": [
+        "# YC Memo",
+        "## Company",
+        "## Problem",
+        "## Solution",
+        "## Why Now",
+        "## Why We Win",
+    ],
+    "startup/why-now.md": [
+        "# Why Now",
+        "## Candidate Automation",
+        "## Employer-Side AI",
+        "## Trust Breakdown",
+        "## Timing",
+    ],
+    "startup/go-to-market.md": [
+        "# Go-to-Market",
+        "## Initial Customer Profile",
+        "## Integration Strategy",
+        "## Design-Partner Motion",
+        "## Attention Strategy",
+    ],
+    "docs/product-spec.md": [
+        "# Product Spec",
+        "## User",
+        "## Core Workflow",
+        "## MVP Boundary",
+        "## Risks",
+    ],
+    "docs/design-partner-pitch.md": [
+        "# Design Partner Pitch",
+        "## Who This Is For",
+        "## What We Install",
+        "## Why It Matters",
+        "## Pilot Ask",
+    ],
 }
 
 errors = []
