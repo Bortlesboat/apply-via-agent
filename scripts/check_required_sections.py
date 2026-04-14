@@ -71,6 +71,14 @@ checks = {
         "## Why It Matters",
         "## Pilot Ask",
     ],
+    "docs/example-flow.md": [
+        "# Example Flow",
+        "## Candidate and Agent",
+        "## Employer Job Schema",
+        "## Gateway Intake",
+        "## ATS Sync",
+        "## Recruiter Review",
+    ],
 }
 
 errors = []
