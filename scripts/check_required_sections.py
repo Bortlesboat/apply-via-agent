@@ -84,8 +84,10 @@ checks = {
         "## Priority Segments",
         "## Buyer and Champion Titles",
         "## Outreach Sequence",
+        "## Starter Target List",
         "## Sample Cold Email",
         "## Sample LinkedIn Note",
+        "## Customized Outreach Drafts",
     ],
     "docs/example-flow.md": [
         "# Example Flow",
