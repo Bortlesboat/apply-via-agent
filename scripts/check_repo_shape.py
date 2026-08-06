@@ -15,6 +15,7 @@ required = [
     ROOT / "startup" / "go-to-market.md",
     ROOT / "docs" / "product-spec.md",
     ROOT / "docs" / "design-partner-pitch.md",
+    ROOT / "docs" / "design-partner-outreach.md",
     ROOT / "docs" / "example-flow.md",
     ROOT / "examples" / "job-schema.sample.json",
     ROOT / "examples" / "application-packet.sample.json",
